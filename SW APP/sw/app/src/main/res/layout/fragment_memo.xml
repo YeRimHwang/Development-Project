@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sw.memo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <Button
+            android:id="@+id/btn_re"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="새로고침" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/txt_q1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1에 대한 메모 및 노트입니다."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q2"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/txt_q2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q2에 대한 메모 및 노트입니다."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q3"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/txt_q3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q3에 대한 메모 및 노트입니다."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q4"
+            android:textSize="24dp"/>
+
+        <TextView
+            android:id="@+id/txt_q4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q4에 대한 메모 및 노트입니다."/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
